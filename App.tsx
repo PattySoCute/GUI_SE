@@ -5,7 +5,7 @@ import SignUp from './Screen/SignUp';
 import Profile from './Screen/Profile';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
+// Patty
 const Stack = createNativeStackNavigator();
 
 const App = () => {
