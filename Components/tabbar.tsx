@@ -80,7 +80,7 @@ const AnimatedTabBar = ({ state: { index: activeIndex, routes }, navigation, des
     <View style={[styles.tabBar, {paddingBottom: bottom}]}>
       <AnimatedSvg
         width={110}
-        height={60}
+        height={58}
         viewBox='0 0 110 60'
         style={[styles.activeBackground, animatedStyles]}
         // fill="none"
@@ -157,13 +157,14 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly'
   },
   component: {
-    height: 60,
+    height: 65,
     width: 60,
     marginTop: -5
   },
   componentCircle: {
     flex: 1,
     borderRadius: 30,
+    marginBottom: 5,
     backgroundColor: '#2C2F4A'
   },
   iconContainer: {
@@ -171,7 +172,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    bottom: 0,
+    bottom: 5,
     justifyContent: 'center',
     alignItems: 'center'
   },
